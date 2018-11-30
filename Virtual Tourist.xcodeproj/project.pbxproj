@@ -8,22 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		1044304D21AC4F0700E02379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044304C21AC4F0700E02379 /* AppDelegate.swift */; };
-		1044304F21AC4F0700E02379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044304E21AC4F0700E02379 /* ViewController.swift */; };
+		1044304F21AC4F0700E02379 /* TravelLocationsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044304E21AC4F0700E02379 /* TravelLocationsMapViewController.swift */; };
 		1044305221AC4F0700E02379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1044305021AC4F0700E02379 /* Main.storyboard */; };
 		1044305521AC4F0700E02379 /* Virtual_Tourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1044305321AC4F0700E02379 /* Virtual_Tourist.xcdatamodeld */; };
 		1044305721AC4F0A00E02379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1044305621AC4F0A00E02379 /* Assets.xcassets */; };
 		1044305A21AC4F0A00E02379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1044305821AC4F0A00E02379 /* LaunchScreen.storyboard */; };
+		1044306721AC891200E02379 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044306621AC891200E02379 /* Alert.swift */; };
+		1044306921AC970500E02379 /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044306821AC970500E02379 /* PhotoAlbumViewController.swift */; };
+		1044306B21AC9BDD00E02379 /* FlickerPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044306A21AC9BDD00E02379 /* FlickerPhotoCollectionViewCell.swift */; };
+		1044306E21ACADCB00E02379 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1044306D21ACADCB00E02379 /* Alamofire.framework */; };
+		1044307621ACB84500E02379 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044307521ACB84500E02379 /* NetworkClient.swift */; };
+		104F2E3A21B1A7B1003D6EAA /* Extension_MKMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104F2E3921B1A7B1003D6EAA /* Extension_MKMapViewDelegate.swift */; };
+		104F2E3C21B1D079003D6EAA /* Extension_UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104F2E3B21B1D079003D6EAA /* Extension_UICollectionView.swift */; };
+		105FA06721AF2C2F00B3D8A0 /* Extension_UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105FA06621AF2C2F00B3D8A0 /* Extension_UIImageView.swift */; };
+		1078F65A21ADBDF7004D28F1 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1078F65921ADBDF7004D28F1 /* Photo.swift */; };
+		1078F65E21ADC5B8004D28F1 /* Alamofire.framework in Carthage Copy Frameworkes */ = {isa = PBXBuildFile; fileRef = 1044306D21ACADCB00E02379 /* Alamofire.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1078F65D21ADC58A004D28F1 /* Carthage Copy Frameworkes */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1078F65E21ADC5B8004D28F1 /* Alamofire.framework in Carthage Copy Frameworkes */,
+			);
+			name = "Carthage Copy Frameworkes";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1044304921AC4F0700E02379 /* Virtual Tourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtual Tourist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1044304C21AC4F0700E02379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1044304E21AC4F0700E02379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1044304E21AC4F0700E02379 /* TravelLocationsMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelLocationsMapViewController.swift; sourceTree = "<group>"; };
 		1044305121AC4F0700E02379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1044305421AC4F0700E02379 /* Virtual_Tourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Virtual_Tourist.xcdatamodel; sourceTree = "<group>"; };
 		1044305621AC4F0A00E02379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1044305921AC4F0A00E02379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1044305B21AC4F0A00E02379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1044306621AC891200E02379 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		1044306821AC970500E02379 /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		1044306A21AC9BDD00E02379 /* FlickerPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		1044306D21ACADCB00E02379 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1044307521ACB84500E02379 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		104F2E3921B1A7B1003D6EAA /* Extension_MKMapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_MKMapViewDelegate.swift; sourceTree = "<group>"; };
+		104F2E3B21B1D079003D6EAA /* Extension_UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UICollectionView.swift; sourceTree = "<group>"; };
+		105FA06621AF2C2F00B3D8A0 /* Extension_UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIImageView.swift; sourceTree = "<group>"; };
+		1078F65921ADBDF7004D28F1 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1044306E21ACADCB00E02379 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +74,8 @@
 		1044304021AC4F0700E02379 = {
 			isa = PBXGroup;
 			children = (
-				1044304B21AC4F0700E02379 /* Virtual Tourist */,
+				1044304B21AC4F0700E02379 /* VirtualTourist */,
+				1044306C21ACADCB00E02379 /* Frameworks */,
 				1044304A21AC4F0700E02379 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +88,98 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1044304B21AC4F0700E02379 /* Virtual Tourist */ = {
+		1044304B21AC4F0700E02379 /* VirtualTourist */ = {
+			isa = PBXGroup;
+			children = (
+				1044306121AC529700E02379 /* Controllers */,
+				1044306421AC52DC00E02379 /* Data Model */,
+				1044307021ACB63900E02379 /* Extentions */,
+				1044307121ACB6EE00E02379 /* Network */,
+				1044306321AC52C200E02379 /* Supports */,
+				1044306221AC52B400E02379 /* View */,
+			);
+			path = VirtualTourist;
+			sourceTree = "<group>";
+		};
+		1044306121AC529700E02379 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1044304E21AC4F0700E02379 /* TravelLocationsMapViewController.swift */,
+				1044306821AC970500E02379 /* PhotoAlbumViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1044306221AC52B400E02379 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1044305021AC4F0700E02379 /* Main.storyboard */,
+				1044305821AC4F0A00E02379 /* LaunchScreen.storyboard */,
+				1044306A21AC9BDD00E02379 /* FlickerPhotoCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1044306321AC52C200E02379 /* Supports */ = {
 			isa = PBXGroup;
 			children = (
 				1044304C21AC4F0700E02379 /* AppDelegate.swift */,
-				1044304E21AC4F0700E02379 /* ViewController.swift */,
-				1044305021AC4F0700E02379 /* Main.storyboard */,
 				1044305621AC4F0A00E02379 /* Assets.xcassets */,
-				1044305821AC4F0A00E02379 /* LaunchScreen.storyboard */,
 				1044305B21AC4F0A00E02379 /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		1044306421AC52DC00E02379 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				1044307221ACB72900E02379 /* Models */,
 				1044305321AC4F0700E02379 /* Virtual_Tourist.xcdatamodeld */,
 			);
-			path = "Virtual Tourist";
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		1044306C21ACADCB00E02379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1044306D21ACADCB00E02379 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1044307021ACB63900E02379 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				105FA06621AF2C2F00B3D8A0 /* Extension_UIImageView.swift */,
+				104F2E3921B1A7B1003D6EAA /* Extension_MKMapViewDelegate.swift */,
+				104F2E3B21B1D079003D6EAA /* Extension_UICollectionView.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		1044307121ACB6EE00E02379 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1044307321ACB77E00E02379 /* ResponseModels */,
+				1044307521ACB84500E02379 /* NetworkClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1044307221ACB72900E02379 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1044306621AC891200E02379 /* Alert.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1044307321ACB77E00E02379 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				1078F65921ADBDF7004D28F1 /* Photo.swift */,
+			);
+			path = ResponseModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +192,7 @@
 				1044304521AC4F0700E02379 /* Sources */,
 				1044304621AC4F0700E02379 /* Frameworks */,
 				1044304721AC4F0700E02379 /* Resources */,
+				1078F65D21ADC58A004D28F1 /* Carthage Copy Frameworkes */,
 			);
 			buildRules = (
 			);
@@ -138,9 +254,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1044304F21AC4F0700E02379 /* ViewController.swift in Sources */,
+				1078F65A21ADBDF7004D28F1 /* Photo.swift in Sources */,
+				1044304F21AC4F0700E02379 /* TravelLocationsMapViewController.swift in Sources */,
 				1044305521AC4F0700E02379 /* Virtual_Tourist.xcdatamodeld in Sources */,
+				1044306B21AC9BDD00E02379 /* FlickerPhotoCollectionViewCell.swift in Sources */,
+				1044306721AC891200E02379 /* Alert.swift in Sources */,
+				104F2E3A21B1A7B1003D6EAA /* Extension_MKMapViewDelegate.swift in Sources */,
+				1044307621ACB84500E02379 /* NetworkClient.swift in Sources */,
+				1044306921AC970500E02379 /* PhotoAlbumViewController.swift in Sources */,
 				1044304D21AC4F0700E02379 /* AppDelegate.swift in Sources */,
+				104F2E3C21B1D079003D6EAA /* Extension_UICollectionView.swift in Sources */,
+				105FA06721AF2C2F00B3D8A0 /* Extension_UIImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +411,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Virtual Tourist/Info.plist";
+				DEVELOPMENT_TEAM = X5VBVX7MSQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/VirtualTourist/Supports/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +433,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Virtual Tourist/Info.plist";
+				DEVELOPMENT_TEAM = X5VBVX7MSQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/VirtualTourist/Supports/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
